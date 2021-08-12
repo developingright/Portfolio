@@ -358,10 +358,13 @@ nav{
 	}
 	.sub{
 		padding-top: 20px;
-		font-size: 2.2em;
+		font-size: 2em;
 	}
 	.col1 p{
 		padding-top: 30px;
+	}
+	.col2{
+		text-align: center;
 	}
 
 } 
