@@ -115,14 +115,11 @@ nav{
 
 }
 
-.col2 {
-	transform: translateX(0%);
-	
-}
+
 .col2 img{
 	
-	width: 300px;
-	height:300px;
+	width: 250px;
+	height:250px;
 	/* overflow: hidden; */
 }
 .social img{
