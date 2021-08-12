@@ -350,7 +350,7 @@ nav{
 	}
 	.col1{
 		margin: auto;
-		transform: translateX(0%);
+		transform: translateX(-20%);
 	
 	}
 	.col1 h1{
@@ -358,13 +358,17 @@ nav{
 	}
 	.sub{
 		padding-top: 20px;
-		font-size: 2em;
+		font-size: 1.5em;
+		width 
 	}
 	.col1 p{
 		padding-top: 30px;
 	}
 	.col2{
 		text-align: center;
+		align-items: center;
+		margin: auto;
+		transform: translateX(-10%);
 	}
 
 } 
