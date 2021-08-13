@@ -10,7 +10,7 @@ html {
 }
 
 nav{
-	/* padding-top: 10px; */
+	padding-top: 10px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -25,7 +25,7 @@ nav{
 	color: #F15156;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	font-size: 20px;
+	font-size: 17px;
 	/* font: bolder; */
 }
 .nav-links{
@@ -70,7 +70,7 @@ nav{
 
 .container{
 	width: 100%;
-	
+	margin-top: 100px;
 	/* display: flex; */
 	padding:0 100px;
 	justify-content: space-around;
@@ -81,7 +81,7 @@ nav{
 }
 .col1{
 	margin: auto;
-	transform: translateX(-40%);
+	transform: translateX(-50%);
 
 }
 .col1 h1{
@@ -109,7 +109,7 @@ nav{
 .row{
 	/* margin: 100px; */
 	display: flex;
-	margin-top: 60px;
+	margin-top: 20px;
 	justify-content: space-around;
 	flex-wrap: wrap;
 
@@ -121,6 +121,7 @@ nav{
 	width: 250px;
 	height:250px;
 	/* overflow: hidden; */
+	
 }
 .social img{
 	width: 35px;
@@ -135,14 +136,14 @@ nav{
 .about-container{
 	position: relative;
 	margin-top: 200px;
-	background: linear-gradient(to bottom , #FF6A6A 60%, white 50%);
+	background: linear-gradient(to bottom , #FF6A6A 70%, white 50%);
 	border-radius: 60px 60px 0 ;
 	height: 90vh;
 	clear:both;
 
 }
 .abt-sect{
-	padding-top: 100px;
+	padding-top: 80px;
 	text-align: center;
 	align-items: center;
 }
@@ -155,6 +156,7 @@ nav{
 .abt-sect p{
 	text-align: center;
 	margin: auto;
+	/* asdad */
 	width: 50%;
 	padding-top: 30px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -361,8 +363,18 @@ nav{
   		overflow-x: hidden;
 		/* position:absolute; */
 	}
+	.burger{
+		transform: translateX(80%);
+	}
 	.nav{
 		z-index:101 ;
+	}
+	.prodeck{
+		width:300px;
+		height: 200px;
+	}
+	.prodeck h2{
+		font-size: 2em;
 	}
 	.nav-links{
 		z-index: 3;
