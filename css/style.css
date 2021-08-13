@@ -3,11 +3,14 @@
 	margin: 0;
 	/* font-family: "Gill Sans", sans-serif; */
 	box-sizing: border-box;
+	
 
 }
 html {
 	scroll-behavior: smooth;
+	
 }
+
 
 nav{
 	padding-top: 10px;
@@ -466,6 +469,7 @@ textarea{
 
 	}
 	.contact-column-2{
+		clear: both;
 		margin: auto;
 		padding-top: 40px;
 	}
@@ -554,6 +558,11 @@ textarea{
 		align-items: center;
 		margin: auto;
 		transform: translateX(-10%);
+	}
+	input{
+		/* width: 30%; */
+		resize: vertical;
+		box-sizing: border-box;
 	}
 
 } 
