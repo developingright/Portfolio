@@ -462,10 +462,19 @@ textarea{
 	}
 	.contact-column-1{
 		margin: auto;
+		width: 250px;
+
 	}
 	.contact-column-2{
 		margin: auto;
 		padding-top: 40px;
+	}
+	textarea{
+	
+		width: 220px;
+		margin: auto;
+		margin-top: 20px;
+
 	}
 }
 @media screen and (max-width: 768px){
